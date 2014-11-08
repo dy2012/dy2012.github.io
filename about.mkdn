@@ -11,21 +11,10 @@ get buried in mailing lists.
 
 ### About me ###{: class="vlist"}
 
-My background is in [Computational Fluid
-Dynamics](http://en.wikipedia.org/wiki/Computational_fluid_dynamics).
+My background is in Control Science & Engineering
+Dynamics](http://baike.baidu.com/view/3316802.htm?fr=aladdin).
 
-I am well-versed in Perl, which I consider an excellent tool for data
-munging and for a variety of other tasks. Since starting to use OpenFOAM for
-CFD calculations a few years ago, I have also upgraded my C++ skills to
-match. As a further outcome of practicing CFD, which generally requires
-parallel processing to achieve acceptable run-times, I continue to
-reconfigure and maintain a Linux cluster using GridEngine as the resource
-management (queuing) system.
-
-As a side-note, I maintained and enhanced an orphaned
-[rxvt](http://en.wikipedia.org/wiki/Rxvt) many years ago when my
-underpowered workstation found XTerm to be a memory hog.
-
+Email:du.upup@gmail.com
 
 ### Disclaimers ###{: class="vlist"}
 
@@ -41,7 +30,7 @@ external links.
 
 <small class="meta final">
 The site content is managed in a
-<a href="http://github.com/olesenm/olesenm.github.io">git repository</a>
+<a href="http://github.com/dy2012/dy2012.github.io">git repository</a>
 and published with <a href="http://jekyllrb.com">jekyll</a>.
 <br/>The site layout can be reused with (cc)
 <a href="http://creativecommons.org/licenses/by-sa/3.0/">some rights reserved</a>.
