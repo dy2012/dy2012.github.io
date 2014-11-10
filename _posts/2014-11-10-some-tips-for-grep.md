@@ -30,7 +30,8 @@ tags: [shell]
 > -B number to set how many lines before the match and -A number for the number of lines after the match.
 
 	`grep -B number -C number searchstring file`
-> -C  number to get the same amount of lines before and after the match.
+
+> -C number to get the same amount of lines before and after the match.
     
 	`grep -C number searchstring file`
 
