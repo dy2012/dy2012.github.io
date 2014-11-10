@@ -6,6 +6,7 @@ pygments:    true
 markdown:    kramdown
 #permalink:   date
 permalink:   pretty
+baseurl:    "/"
 paginate:    5
 maruku:
   use_tex:   false
