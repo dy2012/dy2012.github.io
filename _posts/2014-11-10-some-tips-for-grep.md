@@ -3,7 +3,7 @@ layout: post
 
 title: Some tips for grep
 
-tags: [shell, linux]
+tags: [shell]
 
 ---
 # Some tips for grep
