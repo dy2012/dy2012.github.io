@@ -1,7 +1,10 @@
 ---
 layout: post
+
 title: Some tips for grep
-tags: [shell, liux]
+
+tags: [shell, linux]
+
 ---
 # Some tips for grep
 
