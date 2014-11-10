@@ -2,6 +2,7 @@
 layout: post
 title: Some tips for grep
 tags: [shell, liux]
+---
 # Some tips for grep
 
 >Global-Regular-Expression-Print(GREP) is a command line text search utility used in Unix & Unix-like system.
