@@ -39,7 +39,7 @@ name:   "http://dy2012.github.io"
   <priority>0.5</priority>
   <changefreq>weekly</changefreq>
 </url>
-</url>
+<url>
   <loc>{{ page.name }}/page2/</loc>
   <lastmod>{{ site.time | date:"%Y-%M-%d" }}</lastmod>
   <priority>0.1</priority>
