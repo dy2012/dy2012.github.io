@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://crazyvoid.com/</loc>
+  <lastmod>2014-11-13T14:37:55+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://crazyvoid.com/about/</loc>
+  <lastmod>2014-11-13T14:37:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://crazyvoid.com/archives/</loc>
+  <lastmod>2014-11-13T14:37:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://crazyvoid.com/tags/</loc>
+  <lastmod>2014-11-13T14:37:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://crazyvoid.com/other/</loc>
+  <lastmod>2014-11-13T14:37:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://crazyvoid.com/2014/11/10/some-tips-for-grep/</loc>
+  <lastmod>2014-11-13T14:37:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://crazyvoid.com/2014/11/08/%E6%B0%B8%E8%BF%9C%E7%9A%84%E9%AA%91%E5%A3%AB/</loc>
+  <lastmod>2014-11-13T14:37:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>
