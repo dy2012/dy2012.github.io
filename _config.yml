@@ -27,5 +27,4 @@ analytics :
   provider : google
   google : 
       tracking_id : 'UA-56699291-1'
-  getclicky :
-    site_id :
+ 
