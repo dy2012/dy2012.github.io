@@ -6,7 +6,6 @@ title: Some tips for grep
 tags: [shell]
 
 ---
-# Some tips for grep
 
 >Global-Regular-Expression-Print(GREP) is a command line text search utility used in Unix & Unix-like system.
 >
