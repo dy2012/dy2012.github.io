@@ -3,19 +3,19 @@ layout: default
 title:  About
 ---
 
->### This site
+### This site
 
 Born out of necessity (to get github project pages working), I figured
 blogging may even prove a useful means of noting things that would otherwise
 get buried in mailing lists.
 
->### About me 
+### About me 
 
 My background is in [Control Science & Engineering](http://baike.baidu.com/view/3316802.htm?fr=aladdin).
 
 Email:du.upup@gmail.com
 
->### Disclaimers
+### Disclaimers
 
 The contents of the blog represent my *personal* opinion and are not
 authorized by any of the companies or institutions mentioned, nor is any
