@@ -17,4 +17,16 @@ tags: [Spark学习]
 * 在多个不同的Spark实例中实现扩展。
 
 
-![](http://dy2012.github.io/graphics/mesos.jpg)
+![](http://dy2012.github.io/graphics/mesos.jpeg)
+
+
+
+
+
+
+
+
+
+
+
+
