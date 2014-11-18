@@ -28,30 +28,30 @@ tags: [shell]
 
 > -B number to set how many lines before the match and -A number for the number of lines after the match.
 
-	`grep -B number -C number searchstring file`
+	grep -B number -C number searchstring file
 
 > -C number to get the same amount of lines before and after the match.
     
-	`grep -C number searchstring file`
+	grep -C number searchstring file
 
 ####2, Checking for full words, not for sub-strings using -w.
 
-	`grep -iw "string" file`
+	grep -iw "string" file
 
 ####3, Counting the number of matches.
 
-	`grep -c "pattern" file`
+	grep -c "pattern" file
 
 ####4, Search a string in Gzipped files.
 
-	`zgrep -i searchstring file`
+	zgrep -i searchstring file
 
 ####5, Match regular expression in files.(egrep) 
 
-	`grep -E`
+	grep -E
 
 ####6, Search a Fixed Pattern String.(fgrep)
 
-	`grep -F`
+	grep -F
 
 
