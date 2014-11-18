@@ -15,3 +15,6 @@ tags: [Spark学习]
 * 动态划分Spark和其他的frameworks。
 
 * 在多个不同的Spark实例中实现扩展。
+
+
+![](http://dy2012.github.io/graphics/mesos.jpg)
