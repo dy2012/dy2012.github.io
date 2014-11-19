@@ -6,7 +6,7 @@ title:  blog, ideas, etc.
 {% for post in paginator.posts %}
   <h3 class="excerpt"><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <p class="excerpt">
-    {{ post.content | strip_html | truncatewords: 10 }} &nbsp;
+    {{ post.content | strip_html | truncatewords: 20 }} &nbsp;
     <a href="{{ post.url }}" class="read-more">read more</a>
   </p>
   <small class="meta">
@@ -20,27 +20,17 @@ title:  blog, ideas, etc.
 
 
 
-
-
-{% for post in paginator.posts %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-{% endfor %}
-
-{% if paginator.total_pages > 1 %}
+<div class="paging">
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="older">Older Posts</a>
+  {% endif %}
 {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"上一页</a>
+  {% if paginator.previous_page == 1 %}
+    <a href="/" class="newer">Newer Posts</a>
+  {% else %}
+    <a href="/page{{paginator.previous_page}}" class="newer">Newer Posts</a>
+  {% endif %}
 {% endif %}
-{% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span class="active">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-{% endfor %}
 
-{% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
-{% endif %}
-{% endif %}
+  <div class="clear"></div>
+</div>
