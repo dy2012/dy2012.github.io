@@ -18,6 +18,10 @@ title:  blog, ideas, etc.
   </small>
 {% endfor %}
 
+{% for post in paginator.posts %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+{% endfor %}
+
 <div class="paging">
   {% if paginator.next_page %}
     <a href="/page{{paginator.next_page}}" class="older">Older Posts</a>
@@ -32,3 +36,5 @@ title:  blog, ideas, etc.
 
   <div class="clear"></div>
 </div>
+
+
