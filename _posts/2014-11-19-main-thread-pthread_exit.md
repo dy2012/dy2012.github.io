@@ -2,7 +2,7 @@
 
 layout: post  
 
-title:  main thread pthread\_exit
+title:  main thread pthread_exit
 
 tags: [linux]
 
