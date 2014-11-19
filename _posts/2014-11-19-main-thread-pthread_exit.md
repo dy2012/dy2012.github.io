@@ -34,7 +34,7 @@ tags: [linux]
 	int
 	main(int argc, char *argv[])
 	{
-		pthread_t thr[NUM_THREADS];
+	   pthread_t thr[NUM_THREADS];
 		int i;
 		
 		for (i = 0; i < NUM_THREADS; i++) {
