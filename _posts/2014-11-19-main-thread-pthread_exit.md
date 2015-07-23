@@ -32,7 +32,7 @@ tags: [linux]
    	          return EXIT_FAILURE;
 	        }
 	      }
-	      thread_exit(NULL);     //main pthread 立即结束
+	      thread_exit(NULL);     //main pthread 
  	    }
        
 然后查看是否有defunct的进程，
