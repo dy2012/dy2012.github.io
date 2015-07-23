@@ -17,34 +17,28 @@ tags: [linux]
 在这期间，如果进程正常运行，同时进程列表没有defunct进程，而POSIX的任务调度控制在列表中，那将会是比较理想的情况。
 
 
-    #include <stdlib.h>
-    #include <stdio.h>
+        #include <stdlib.h>
+        #include <stdio.h>
 	#include <unistd.h>
 	#include <pthread.h>
 	
 	#define NUM_THREADS 5
 	
-	void 
-	*task(void *a)
-	{
-		sleep(10);
-		pthread_exit(NULL);
+	void *task(void *a) {
+	  sleep(10);
+	  pthread_exit(NULL);
 	}
 	
-	int
-	main(int argc, char *argv[])
-	{
-	   pthread_t thr[NUM_THREADS];
-		int i;
-		
-		for (i = 0; i < NUM_THREADS; i++) {
-			if (pthread_create(&thr[i], NULL, task, 0) != 0) {
-				fprintf(stderr, "pthread_create failed\n");
-				return EXIT_FAILURE;
-			}
+	int main(int argc, char *argv[]) {
+	  pthread_t thr[NUM_THREADS];
+	  int i;
+	  for (i = 0; i < NUM_THREADS; i++) {
+	    if (pthread_create(&thr[i], NULL, task, 0) != 0) {
+   	      fprintf(stderr, "pthread_create failed\n");
+   	      return EXIT_FAILURE;
+	    }
 	  }
-	
-		pthread_exit(NULL);     //main pthread 立即结束
+	  thread_exit(NULL);     //main pthread 立即结束
 	}
 
 
