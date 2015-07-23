@@ -34,7 +34,8 @@ tags: [linux]
 	      }
 	      thread_exit(NULL);     //main pthread 
  	    }
-       
+
+
 然后查看是否有defunct的进程，
     
 
