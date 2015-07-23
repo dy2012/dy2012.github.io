@@ -18,29 +18,29 @@ tags: [linux]
 
 
         
-        #include <stdlib.h>
-        #include <stdio.h>
-	#include <unistd.h>
-	#include <pthread.h>
+            #include <stdlib.h>
+            #include <stdio.h>
+	    #include <unistd.h>
+   	    #include <pthread.h>
 	
-	#define NUM_THREADS 5
+	    #define NUM_THREADS 5
 	
-	void *task(void *a) {
-	  sleep(10);
-	  pthread_exit(NULL);
-	}
+	    void *task(void *a) {
+	      sleep(10);
+	      pthread_exit(NULL);
+  	    }
 	
-	int main(int argc, char *argv[]) {
-	  pthread_t thr[NUM_THREADS];
-	  int i;
-	  for (i = 0; i < NUM_THREADS; i++) {
-	    if (pthread_create(&thr[i], NULL, task, 0) != 0) {
-   	      fprintf(stderr, "pthread_create failed\n");
-   	      return EXIT_FAILURE;
-	    }
-	  }
-	  thread_exit(NULL);     //main pthread 立即结束
-	}
+	    int main(int argc, char *argv[]) {
+	      pthread_t thr[NUM_THREADS];
+	      int i;
+	      for (i = 0; i < NUM_THREADS; i++) {
+	        if (pthread_create(&thr[i], NULL, task, 0) != 0) {
+   	          fprintf(stderr, "pthread_create failed\n");
+   	          return EXIT_FAILURE;
+	        }
+	      }
+	      thread_exit(NULL);     //main pthread 立即结束
+ 	    }
 
 
 然后查看是否有defunct的进程，
