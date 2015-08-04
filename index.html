@@ -6,7 +6,7 @@ title:  blog, ideas, etc.
 {% for post in paginator.posts %}
   <h3 class="excerpt"><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <p class="excerpt">
-    {{ post.excerpt | strip_html | truncate: 40 }} &nbsp;
+    {{ post.excerpt | strip_html | truncate: 100 }} &nbsp;
     <a href="{{ post.url }}" class="read-more">read more</a>
   </p>
   <small class="meta">
