@@ -3,11 +3,6 @@ layout: default
 title:  About
 ---
 
-### This site
-
-Born out of necessity (to get github project pages working), I figured
-blogging may even prove a useful means of noting things that would otherwise
-get buried in mailing lists.
 
 ### About me 
 
@@ -15,17 +10,6 @@ My background is in [Control Science & Engineering](http://baike.baidu.com/view/
 
 Email:du.upup@gmail.com
 
-### Disclaimers
-
-The contents of the blog represent my *personal* opinion and are not
-authorized by any of the companies or institutions mentioned, nor is any
-affiliation implied. No responsibility is taken for the contents of
-external links.
-
-- [Grid Engine&reg;](http://gridengine.sunsource.net/) is a registered
-  trademark of [SUN microsystems](http://www.sun.com/)
-- [OpenFOAM&reg;](http://www.openfoam.com/) is a registered trademark
-  of [OpenCFD Ltd.](http://www.openfoam.com/about/)
 
 <small class="meta final">
 The site content is managed in a
