@@ -24,7 +24,7 @@ tags: [shell]
 * "-l" Display only the file names which matches the given pattern.
 * "-r" Search a string recursively in all Directories.
 
-####1.Grep for a string, but show the preceding 5 lines and following 5 lines as well as the matched the line.
+####1, Grep for a string, but show the preceding 5 lines and following 5 lines as well as the matched the line.
 
 -B number to set how many lines before the match and -A number for the number of lines after the match.
 
