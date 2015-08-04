@@ -16,7 +16,7 @@ tags: [linux]
 
 在这期间，如果进程正常运行，同时进程列表没有defunct进程，而POSIX的任务调度控制在列表中，那将会是比较理想的情况。
 	
-{% highlight c %}
+{% highlight c linenos %}
 
  #define NUM_THREADS 5
 
