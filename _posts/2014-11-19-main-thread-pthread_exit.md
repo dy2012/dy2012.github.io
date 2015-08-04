@@ -16,33 +16,33 @@ tags: [linux]
 
 在这期间，如果进程正常运行，同时进程列表没有defunct进程，而POSIX的任务调度控制在列表中，那将会是比较理想的情况。
 	
-	    #define NUM_THREADS 5
+    #define NUM_THREADS 5
 	
-	    void *task(void *a) {
-	      sleep(10);
-	      pthread_exit(NULL);
-  	    }
+	  void *task(void *a) {
+	    sleep(10);
+	    pthread_exit(NULL);
+    }
 	
-	    int main(int argc, char *argv[]) {
-	      pthread_t thr[NUM_THREADS];
-	      int i;
-	      for (i = 0; i < NUM_THREADS; i++) {
-	        if (pthread_create(&thr[i], NULL, task, 0) != 0) {
-   	          fprintf(stderr, "pthread_create failed\n");
-   	          return EXIT_FAILURE;
-	        }
+	  int main(int argc, char *argv[]) {
+	    pthread_t thr[NUM_THREADS];
+	    int i;
+	    for (i = 0; i < NUM_THREADS; i++) {
+	      if (pthread_create(&thr[i], NULL, task, 0) != 0) {
+          fprintf(stderr, "pthread_create failed\n");
+          return EXIT_FAILURE;
 	      }
-	      thread_exit(NULL);     //main pthread 
- 	    }
+	    }
+	    thread_exit(NULL);     //main pthread 
+ 	  }
 
 
 然后查看是否有defunct的进程，
     
 
-	$ps -ef | grep a.out
+`~$ps -ef | grep a.out`
 
-	dy        3566  2558  0 09:00 pts/1    00:00:00 [a.out] <defunct>
-	dy        3573  3229  0 09:00 pts/0    00:00:00 grep funct
+    dy        3566  2558  0 09:00 pts/1    00:00:00 [a.out] <defunct>
+    dy        3573  3229  0 09:00 pts/0    00:00:00 grep funct
 
 当主线程调用pthread\_exit时，进程并没有立即退出，尽管它还有正在运行的线程，这时进程的状态是defunct。当所有线程都调用pthread\_exit时，才会被销毁。
 
