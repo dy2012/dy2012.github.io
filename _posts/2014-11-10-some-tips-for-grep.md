@@ -32,26 +32,38 @@ tags: [shell]
 
 -C number to get the same amount of lines before and after the match.
     
-`grep -C number searchstring file`
+{% highlight grep %}
+grep -C number searchstring file
+{% endhighlight %}
 
 ####2, Checking for full words, not for sub-strings using -w.
 
-`grep -iw "string" file`
+{% highlight grep %}
+grep -iw "string" file
+{% endhighlight %}
 
 ####3, Counting the number of matches.
 
-`grep -c "pattern" file`
+{% highlight grep %}
+grep -c "pattern" file
+{% endhighlight %}
 
 ####4, Search a string in Gzipped files.
 
-`grep -i searchstring file`
+{% highlight grep %}
+grep -i searchstring file
+{% endhighlight %}
 
 ####5, Match regular expression in files.(egrep) 
 
-`grep -E`
+{% highlight grep %}
+grep -E
+{% endhighlight %}
 
 ####6, Search a Fixed Pattern String.(fgrep)
 
-`grep -F`
+{% highlight grep %}
+grep -F
+{% endhighlight %}
 
 
