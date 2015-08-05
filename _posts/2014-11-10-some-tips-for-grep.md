@@ -62,7 +62,7 @@ grep -E
 
 ####6, Search a Fixed Pattern String.(fgrep)
 
-{% highlight grep %}
+{% highlight shell %}
 grep -F
 {% endhighlight %}
 
