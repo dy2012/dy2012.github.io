@@ -22,9 +22,11 @@ tags: [算法]
 * 1）将word1的前i-1个字符变成word2的前j-1个字符，再把word1的第i个字符修改为word2的第j个字符，即distance[i-1][j-1]＋１
 * 2）将word1的前i个字符变成word2的前j-1个字符，再加上word2的第j个字符，即distance[i][j-1] + 1
 * 3）删除word1的第i个字符，将word1的前i-1个字符变成word2的第j个字符，即dp[i-1][j] + 1
-* 
+
 则distance[i][j]是三种情况的最小值。
-distance[i][j] = min(distance[i-1][j-1], min(distance[i][j-1],distance[i-1][j])) + 1
+
+    distance[i][j] = min(distance[i-1][j-1], min(distance[i][j-1],distance[i-1][j])) + 1
+
 空间复杂度是O(M*N)，应该还可以减少，用一个vector，O（max(M,N))。
  
 
