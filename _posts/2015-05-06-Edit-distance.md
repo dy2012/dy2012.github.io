@@ -27,7 +27,7 @@ tags: [算法]
 
     distance[i][j] = min(distance[i-1][j-1], min(distance[i][j-1],distance[i-1][j])) + 1
 
-空间复杂度是O(M*N)，应该还可以减少，用一个vector，O（max(M,N))。
+空间复杂度是O(M*N)，应该还可以减少，用一个vector，O(max(M,N))。
  
 
 {% highlight c++ linenos %}
