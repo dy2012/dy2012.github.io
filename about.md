@@ -6,7 +6,7 @@ title:  About
 
 ### About me 
 
-自动化专业一直到研究生，待毕业，待工作，兴趣广泛。
+控制专业研究生，喜欢读书，学习多个领域的知识。
 
 Email:du.upup@gmail.com
 
