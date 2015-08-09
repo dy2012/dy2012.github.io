@@ -6,7 +6,7 @@ title:  About
 
 ### About me 
 
-My background is in [Control Science & Engineering](http://baike.baidu.com/view/3316802.htm?fr=aladdin).
+自动化专业一直到研究生，待毕业，待工作，兴趣广泛。
 
 Email:du.upup@gmail.com
 
