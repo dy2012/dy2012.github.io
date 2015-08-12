@@ -72,8 +72,7 @@ topnav:
         {{ content }}
       </div>
     </div>
-    <div id="col3">
-      <div id="col3_content">
+    <div id="col3"> <div id="col3_content">
         <!-- <h6 class="vlist">GitHub projects</h6>-->
         <ul class="vlist">
 		<li>
@@ -102,7 +101,7 @@ topnav:
         {% if forloop.last == false %} | {% endif %}
         </li>
         {% endfor %}
-        <li>&ndash; updated {{ site.time | date:"%Y-%m-%d" }}</li>
+        <!-- <li>&ndash; updated {{ site.time | date:"%Y-%m-%d" }}</li>-->
       </ul>
     </div>
   </div>
